@@ -1,0 +1,29 @@
+@media only screen and (max-width: 600px) {
+    .dont-show {
+        display: none
+    }
+  }
+
+
+  @media only screen and (min-width: 600px) {
+  .show {
+    display: none
+}
+
+.flexx {
+    display: flex;
+}
+}
+
+.first-heading {
+    color:  #FC4E17;
+}
+
+.btn-primary.custom-btn {
+    background-color: #FC4E17;
+}
+
+
+.btn {
+    outline : none;
+  }
