@@ -1,0 +1,112 @@
+@media only screen and (max-width: 600px) {
+    .another-sshape, .dont-show {
+        display: none
+    }
+    
+
+    .mobile-shape{
+        position: relative;
+    }
+    .mobile-sshape {
+     position: absolute;
+        left: 80%;
+        top: 0px;
+        z-index: 2;
+        opacity: 0.8;
+    }
+
+
+    section {
+        margin-top: 0
+    }
+
+    body {
+        overflow-x: hidden;
+        position: relative;
+        background-image: url("img/ellipse27.svg");
+        background-repeat: no-repeat;
+        background-size: 160px;
+        background-position: 
+        top right;
+    }
+
+   
+  }
+
+
+  
+
+
+@media only screen and (min-width: 600px) {
+  #show {
+    display: none
+  }
+
+  body {
+    overflow-x: hidden;
+    position: relative;
+    background-image: url("img/ellipse27.svg");
+    background-repeat: no-repeat;
+    background-size: 300px;
+    background-position: 
+    top right;
+    
+  }
+}
+
+.flexx {
+    display: flex;
+}
+
+
+.first-heading {
+    color:  #FC4E17;
+}
+
+.btn-primary.custom-btn, .btn-primary.custom-btn:hover, .btn-primary.custom-btn:focus, .btn-primary.custom-btn:active {
+    background-color: #FC4E17 !important;
+}
+
+.btn {
+    outline : none;
+  }
+
+  form .form-group .form-control {
+    border: 1px solid #FC4E17;
+    opacity: 0.6;
+  }
+
+
+  form .form-group .form-control {
+    border: 1px solid #FC4E17;
+    
+  }
+ 
+
+  .side-shape {
+      position: absolute;
+      left: 80%;
+      top: 20px;
+      z-index: 2;
+      opacity: 0.8;
+  }
+
+ .sshape  {
+   position: relative;
+ }
+
+ body {
+    overflow-x: hidden;
+    position: relative;
+ }
+
+ 
+
+.another-sshape  {
+ position: absolute;
+ 
+ left:0px;
+ top: 488px;
+ z-index: -1;
+ opacity: 0.8;
+}
