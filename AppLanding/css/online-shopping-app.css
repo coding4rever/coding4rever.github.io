@@ -126,8 +126,8 @@ p.dont-show {
   margin-top: -90px;
 }
 .skewed-bg-2 .contained{
-  -webkit-transform: skew(0deg, 20deg);
-  transform: skew(0deg, 20deg);
+  -webkit-transform: skew(0deg, 0deg);
+  transform: skew(0deg, 0deg);
   padding: 0px;
   color: #fff;
 }
@@ -195,7 +195,10 @@ p.dont-show {
     color: #1947E5;
     }
 
-
+    video {
+      width: 100%;
+      height: auto;
+    }
 
     .accordion-section .panel-default > .panel-heading {
       border: 0;
@@ -261,6 +264,7 @@ p.dont-show {
 .footer .container {
   padding: 2rem 0 0 0
 }
+
 
 
 
