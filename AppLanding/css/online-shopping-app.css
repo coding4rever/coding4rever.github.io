@@ -59,17 +59,76 @@ p.dont-show {
 }
 
 .p1 {
- font-size: 2.5rem;
+ font-size: 2.5rem !important;
  line-height: 35px;
 }
 
 .adjust-font-size{
   font-family: "Montserrat";
-  font-size: 50px;
+  font-size: 3.125rem !important;
 }
 
 .change-font-family {
   font-family: "Gilroy";
+  font-size: 1.25rem !important;
+}
+
+.font-1 {
+  font-family: "Montserrat";
+  font-size: 1.375rem !important;
+}
+
+.font-2 {
+  font-family: "Montserrat";
+  font-size: 1.875rem !important;
+  font-weight: 900;
+}
+
+.font-3 {
+  font-family: "Montserrat";
+  font-size: 1.25rem !important;
+  color: #000;
+}
+
+.font-4 {
+  font-family: "Montserrat";
+  font-size: 2.5rem !important;
+}
+
+.font-5 {
+  font-family: "Montserrat";
+  font-size: 1.25rem !important;
+}
+
+.font-6 {
+  font-family: "Montserrat";
+  font-size: 1.875rem !important;
+}
+
+.font-7 {
+  font-family: "Montserrat";
+  font-size: 2.2rem !important;
+}
+
+.font-8 {
+  font-family: "Montserrat";
+  font-size: 2.5rem !important;
+}
+
+.font-9 {
+  font-family: "Montserrat";
+  font-size: 1.675rem !important;
+  font-weight: bold;
+}
+
+.font-10 {
+  font-family: "Montserrat";
+  font-size: 1.375rem !important;
+}
+
+.font-11 {
+  font-family: "Montserrat";
+  font-size: 1.25rem !important;
 }
 
 .p1 span {
@@ -77,6 +136,9 @@ p.dont-show {
  font-family: "Montserrat";
   font-size: 50px;
  }
+
+
+ /* SHOWCASE AREA */
 
  #showcase {
   padding-left: 3rem;
@@ -103,7 +165,7 @@ p.dont-show {
 
 
 
-
+/* BLUEISH BACKGROUND */
 
 .skewed-bg{
   background: #466BEB;
@@ -134,7 +196,7 @@ p.dont-show {
 
 
 
-
+/* OTHER BACKGROUNDS */
 .services-items {
   margin: 80px 0;
   position: relative;
@@ -179,6 +241,9 @@ p.dont-show {
   border-bottom: 1px solid #fc4e17 !important;
 }
 
+
+
+/* VIDEO SECTION */
 .video-section {
   margin-top: 200px;
 }
@@ -200,6 +265,8 @@ p.dont-show {
       height: 100%;
     }
 
+
+    /* COLLAPSIBLE ACCORDION */
     .accordion-section .panel-default > .panel-heading {
       border: 0;
 
@@ -302,6 +369,10 @@ p.dont-show {
   font-weight: normal !important;
   font-size: 1rem !important;
   
+}
+
+.my-font-awesome{
+  padding-right: 3px;
 }
 
 
@@ -804,3 +875,59 @@ p.dont-show {
   }
 
 
+  @media only screen and (min-width: 300px) and (max-width: 600px) {
+
+    .logo-style{
+      font-size: 1.25rem !important;
+    }
+
+    .adjust-font-size{
+      font-size: 1.56rem !important;
+    }
+
+    .font-1{
+      font-size: 1rem !important;
+    }
+    
+
+    .font-2{
+      font-size: 1.3rem !important;
+    }
+    
+
+    .font-3{
+      font-size: 1rem !important;
+    }
+
+    .font-4{
+      font-size: 1.8rem !important;
+    }
+
+    .font-5{
+      font-size: 1rem !important;
+    }
+
+    .font-6{
+      font-size: 1.5rem !important;
+    }
+
+    .font-8{
+      font-size: 1.8rem !important;
+    }
+
+    .font-9{
+      font-size: 1.2rem !important;
+    }
+
+    .font-7{
+      font-size: 1.5rem !important;
+      font-weight: 900 !important;
+    }
+    }
+
+    
+    @media only screen and (min-width: 760px) and (max-width: 1030px) {
+      div.show p{
+        margin-bottom: 0;
+      }
+    }
