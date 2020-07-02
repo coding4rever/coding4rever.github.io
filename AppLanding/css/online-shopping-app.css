@@ -791,3 +791,16 @@ p.dont-show {
   }
 
 
+
+@media only screen and (min-width: 756px)  and (max-width: 1077px) {
+
+  .skewed-bg{
+    background: #466BEB;
+    -webkit-transform: skew(0deg, 0deg);
+    transform: skew(0deg, 0deg);
+    margin-top: 0px;
+  }
+  
+  }
+
+
