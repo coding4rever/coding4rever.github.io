@@ -451,6 +451,8 @@ p.dont-show {
       font-size: 20px;
      }
 
+
+   
  }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -774,3 +776,18 @@ p.dont-show {
 }
 
 }
+
+
+@media only screen and (max-width: 767px) {
+
+  .footer {
+    text-align: center;
+      }
+
+      .video-section, .video-section-2, .middle-text {
+        text-align: center !important;
+      }
+  
+  }
+
+
