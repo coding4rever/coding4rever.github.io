@@ -1,0 +1,49 @@
+/* General Body Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Header Section */
+
+.header-image {
+    width: 100%;
+    background-image: url('../images/background-image.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    min-height: 1024px;
+}
+
+
+/* Logo */
+
+.logo-style {
+    font-family: Orbitron;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.logo-shape {
+   position: relative;
+   top: 6px;
+   left: 2px;
+}
+
+
+
+/* Navbar */
+.nav-link {
+    font-family: Orbitron;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFFFFF !important;
+}
