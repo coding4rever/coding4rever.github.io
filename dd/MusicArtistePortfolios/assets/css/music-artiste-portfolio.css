@@ -204,6 +204,8 @@ p {
     background-color: #000000;
 }
 
+
+
 .my-music-text {
     font-family: 'Nunito';
     font-size: 1.75rem;
@@ -243,6 +245,61 @@ p {
     background-color: #000000;
 }
 
+.expand-text-button {
+    font-weight: bold;
+    font-family: 'Nunito';
+    font-size: 1.3rem;
+    padding-bottom: 40px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #01A9B4;
+}
+
+/* My Gallery Section */
+
+.my-gallery {
+    background-color: #000000;
+}
+
+
+
+.gallery-text {
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 60px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #87DFD6;
+}
+
+.gallery-text-background {
+    background-color: #000000;
+}
+
+.my-gallery-text {
+    font-family: 'Nunito';
+    font-size: 1.75rem;
+    color: #CCF8FB;
+    line-height: 0px;
+    margin-top: 30px;
+}
+
+.my-gallery-text-2 {
+    font-family: 'Nunito';
+    color: #FFFFFF;
+    font-size: 1rem;
+    line-height: 0px;
+}
+
+.hr-line {
+    border: 2px solid yellow;
+    width: 6%;
+}
+
+
 /*Responsiveness: Media Queries*/
 
 @media screen and (max-width: 540px) {
@@ -275,6 +332,12 @@ p {
     .dont-show {
         display: block;
     }
+
+    .img-down-2 {
+   
+        margin-bottom: 0px !important;
+    }
+    
 }
 
 html {
