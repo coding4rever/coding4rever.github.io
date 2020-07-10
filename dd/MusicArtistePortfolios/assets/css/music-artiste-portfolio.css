@@ -1,0 +1,364 @@
+/* General Body Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Header Section */
+
+.header-image {
+    width: 100%;
+    background-image: url('../images/background-image.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    min-height: 1024px;
+}
+
+/* Logo */
+
+.logo-style {
+    font-family: Orbitron;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 40px;
+    color: #FFFFFF;
+}
+
+.logo-shape {
+    position: relative;
+    top: 6px;
+    left: 2px;
+}
+
+/* Navbar */
+
+.nav-link {
+    font-family: Orbitron;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFFFFF !important;
+}
+
+/* .project_text {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(2, 7, 32, 0.726);
+  }
+  .project_text_wrapper {
+    position: absolute;
+    top: 21%;
+    left: 10%;
+    background-color: transparent;
+    width: 80%;
+    height: 76%;
+    color: white;
+    text-align: center;
+  }
+.text_wrapper {
+    position: relative;
+  }
+  .anchor {
+    position: absolute;
+    width: 78px;
+    height: 78px;
+  }
+  .anchor_tp_left {
+    left: 0%;
+  }
+  .anchor_tp_right {
+    right: 0%;
+  }
+  .anchor_bt_right {
+    right: 0%;
+  }
+  .anchor_bt_left {
+    left: 0%;
+  }
+
+
+
+.bt-size {
+  border-bottom: 10px solid #e4af26;
+  bottom: 0%;
+}
+.tp-size {
+  top: 0%;
+  border-top: 10px solid #e4af26;
+}
+.tp-color {
+  border-right: 10px solid #e4af26;
+}
+.bt-color {
+  border-left: 10px solid #e4af26;
+} */
+
+.project_intro {
+    height: 620px;
+    position: relative;
+}
+
+.project_text {
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.project_text_wrapper {
+    position: absolute;
+    top: 50%;
+    background-color: transparent;
+    width: 90%;
+    height: 76%;
+    color: white;
+    text-align: center;
+}
+
+.dont-show {
+    display: none;
+}
+
+h1 {
+    font-size: 123px;
+    padding: 6%;
+}
+
+p {
+    font-size: 22px;
+    padding-top: 3%;
+}
+
+.text_wrapper {
+    position: relative;
+}
+
+.text_wrapper span {
+    color: #fff;
+}
+
+.anchor {
+    position: absolute;
+    width: 110px;
+    height: 80.5px;
+}
+
+.anchor_tp_left {
+    left: 0%;
+}
+
+.anchor_tp_right {
+    right: 0%;
+}
+
+.anchor_bt_right {
+    right: 0%;
+}
+
+.anchor_bt_left {
+    left: 0%;
+}
+
+.bt-size {
+    border-bottom: 4px solid #FBFD8A;
+    bottom: 0%;
+}
+
+.tp-size {
+    top: 0%;
+    border-top: 4px solid #FBFD8A;
+}
+
+.tp-color {
+    border-right: 4px solid #FBFD8A;
+}
+
+.bt-color {
+    border-left: 4px solid #FBFD8A;
+}
+
+.text_wrapper p {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 1.75rem;
+    padding: 71.5px 60.5px;
+    color: #87DFD6;
+}
+
+.put-img-margin {
+    margin-top: 200px;
+}
+
+/* My Music Section */
+
+.my-music {
+    background-color: #000000;
+}
+
+.my-music-text {
+    font-family: 'Nunito';
+    font-size: 1.75rem;
+    color: #CCF8FB;
+    line-height: 0px;
+    margin-top: 30px;
+}
+
+.my-music-text-2 {
+    font-family: 'Nunito';
+    color: #FFFFFF;
+    font-size: 1rem;
+    line-height: 0px;
+}
+
+.img-down {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.img-right {
+    margin-right: 20px;
+}
+
+.first-text {
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 60px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #87DFD6;
+}
+
+.first-text-background {
+    background-color: #000000;
+}
+
+/*Responsiveness: Media Queries*/
+
+@media screen and (max-width: 540px) {
+    #h {
+        font-size: 1.75rem;
+    }
+    .anchor {
+        height: 58px;
+        width: 58px;
+    }
+    .text_wrapper p {
+        font-family: 'Nunito';
+        font-style: normal;
+        font-size: 1.25rem !important;
+        text-align: justify;
+        color: #87DFD6;
+    }
+    .anchor {
+        width: 73.86px;
+        height: 51.99px;
+    }
+    .text_wrapper p {
+        font-weight: 800;
+        padding: 22.68px 45.66px;
+        line-height: 1.69rem;
+    }
+    .show {
+        display: none;
+    }
+    .dont-show {
+        display: block;
+    }
+}
+
+html {
+    /* font-size: 1rem; */
+}
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {}
+
+@media (max-width: 992px) {}
+
+@media screen and (min-width: 541px) and (max-width: 992px) {
+    #h {
+        font-size: 1.75rem;
+    }
+    .anchor {
+        height: 58px;
+        width: 58px;
+    }
+    .text_wrapper p {
+        font-family: 'Nunito';
+        font-style: normal;
+        font-size: 1.25rem !important;
+        text-align: justify;
+        color: #87DFD6;
+    }
+    .anchor {
+        width: 73.86px;
+        height: 51.99px;
+    }
+    .text_wrapper p {
+        font-weight: 800;
+        padding: 22.68px 45.66px;
+        line-height: 1.69rem;
+    }
+    .show {
+        display: none;
+    }
+    .dont-show {
+        display: block;
+    }
+}
+
+@media (min-width: 1200px) {
+    /* html {
+        font-size: 2rem;
+    } */
+}
+
+
+@media screen and (max-width: 767px) {
+    .mobile-cta-img {
+        margin-top: 70px;
+    }
+
+    .mobile-chevron {
+        margin-top: 140px;
+    }
+
+    .my-music-text {
+        font-family: 'Nunito';
+        font-size: 1.75rem;
+        color: #CCF8FB;
+        line-height: 0px;
+        margin-top: 30px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    
+    .my-music-text-2 {
+        font-family: 'Nunito';
+        color: #FFFFFF;
+        font-size: 1rem;
+        line-height: 0px;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .img-down {
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+}
