@@ -254,6 +254,7 @@ p {
     text-align: center;
     justify-content: center;
     color: #01A9B4;
+    background-color: black;
 }
 
 /* My Gallery Section */
@@ -300,6 +301,45 @@ p {
 }
 
 
+
+
+/* Upcomimg Shows */
+.my-shows {
+    background-color: #000000;
+}
+
+
+
+.shows-text {
+    font-family: 'Orbitron';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 60px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: #87DFD6;
+}
+
+.shows-text-background {
+    background-color: #000000;
+}
+
+
+.upcoming-button {
+    display: inline;
+}
+
+.button-down {
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
 /*Responsiveness: Media Queries*/
 
 @media screen and (max-width: 540px) {
@@ -336,6 +376,10 @@ p {
     .img-down-2 {
    
         margin-bottom: 0px !important;
+    }
+
+    .font-reduce{
+        font-size: 2rem;
     }
     
 }
