@@ -1,0 +1,1 @@
+box-sizing: border-box is to keep both the padding and border inside the width
