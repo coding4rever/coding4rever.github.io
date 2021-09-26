@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
+
+.img-shrink {
+    width: 10%;
+}
+
+body {
+    background-image: url("images/shape-1.png");
+    background-position:right -350px top -400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    margin:0;
+    overflow: hidden;
+}
+
+nav {
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+}
+
+.section2.row {
+   margin-right: 0;
+}
+
+.first-text {
+    font-family: 'Nunito', sans-serif;
+    font-weight: 700;
+    color: #0B2F52;
+}
+
+.first-text-1 {
+    margin-top: 40px;
+    font-family: 'Nunito', sans-serif;
+}
+
+.hr1 {
+    width: 100px;
+    border-top: solid 7px #FFC61B;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+button.navbar-toggler.bg-dark {
+    background-color: #0B2F52 !important;
+}
+
+.button-1 {
+    padding : 10px 20px;
+    background-color: #4B70DB;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    margin-top: 10px;
+}
+
+.section2-image {
+    display: flex;
+}
+
+
+.thirdside {
+    background-color: #4B70DB;
+    min-height: 900px;
+    border: solid 3px red;
+}
+
+
+@media (min-width: 320px) and (max-width: 500px) {
+    body {
+        background-image: none;
+    }
+    
+    
+    
+    .img-shrink {
+        width: 20%;
+    }
+
+  
+        .first-text {
+            font-family: 'Nunito', sans-serif;
+            font-weight: 700;
+            font-size: 30px;
+            color: #0B2F52;
+        
+           /* overflow: hidden; */
+        
+       }
+
+       .first-section-mobile {
+       text-align: center;
+       }
+
+       .first-text-1 {
+        margin-top: 35px;
+    }
+
+    .section2-flex {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+
+    .hr1 {
+        margin-top: 20px;
+        margin-bottom: 25px;
+    }
+
+    .section2-image-1 {
+        margin-top: 40px;
+        width: 100%;
+    }
+  }
+
+
+  @media (min-width: 320px) and (max-width: 800px) {
+    body {
+        background-image: none;
+    }
+
+
+}
+
